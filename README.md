@@ -1,0 +1,2 @@
+# enhanced_cslg_250722857v1_synchronization_of_mean_field_models_on_the_circle
+AI-Generated Project: enhanced_cs.LG_2507.22857v1_Synchronization_of_mean_field_models_on_the_circle - Created by WATCHDOG Multi-Agent System
