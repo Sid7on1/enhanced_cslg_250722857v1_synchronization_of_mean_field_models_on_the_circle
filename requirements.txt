@@ -1,0 +1,76 @@
+# requirements.txt
+
+# Python dependencies
+python_version = "3.9"
+
+# Transformer project dependencies
+transformers = "4.20.1"
+torch = "1.12.1"
+numpy = "1.22.3"
+pandas = "1.4.2"
+scipy = "1.8.0"
+scikit-learn = "1.0.2"
+matplotlib = "3.5.1"
+seaborn = "0.11.2"
+plotly = "5.7.0"
+
+# Logging and error handling dependencies
+loguru = "0.8.0"
+structlog = "21.1.0"
+tenacity = "8.1.0"
+
+# Configuration and settings dependencies
+pydantic = "1.9.1"
+toml = "0.10.2"
+
+# Testing and mocking dependencies
+pytest = "7.1.2"
+pytest-cov = "2.12.1"
+pytest-mock = "3.10.0"
+
+# Performance and optimization dependencies
+numba = "0.56.4"
+cython = "0.29.32"
+
+# Data persistence and storage dependencies
+pandas-datareader = "0.10.0"
+pandas-gbq = "0.18.0"
+
+# Other dependencies
+requests = "2.28.1"
+beautifulsoup4 = "4.11.1"
+lxml = "4.9.1"
+
+# Specify the dependencies and their versions
+dependencies = [
+    f"python=={python_version}",
+    f"transformers=={transformers}",
+    f"torch=={torch}",
+    f"numpy=={numpy}",
+    f"pandas=={pandas}",
+    f"scipy=={scipy}",
+    f"scikit-learn=={scikit-learn}",
+    f"matplotlib=={matplotlib}",
+    f"seaborn=={seaborn}",
+    f"plotly=={plotly}",
+    f"loguru=={loguru}",
+    f"structlog=={structlog}",
+    f"tenacity=={tenacity}",
+    f"pydantic=={pydantic}",
+    f"toml=={toml}",
+    f"pytest=={pytest}",
+    f"pytest-cov=={pytest_cov}",
+    f"pytest-mock=={pytest_mock}",
+    f"numba=={numba}",
+    f"cython=={cython}",
+    f"pandas-datareader=={pandas_datareader}",
+    f"pandas-gbq=={pandas_gbq}",
+    f"requests=={requests}",
+    f"beautifulsoup4=={beautifulsoup4}",
+    f"lxml=={lxml}",
+]
+
+# Write the dependencies to the requirements.txt file
+with open("requirements.txt", "w") as f:
+    for dependency in dependencies:
+        f.write(dependency + "\n")
